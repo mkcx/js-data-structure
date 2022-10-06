@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         stack: '/pages/stack/index.html',
-        login: '/pages/queue/index.html'
+        queue: '/pages/queue/index.html'
       }
     },
     outDir: '../dist'
